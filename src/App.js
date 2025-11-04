@@ -83,21 +83,21 @@ const SpacePortfolio = () => {
   const projects = [
     {
       title: "Liver Cirrhosis Prediction",
-      desc: "AI-based system using KNN, XGBoost, RF with Flask web UI for real-time predictions",
+      desc: "AI-based system using KNN, XGBoost, RF with Flask web UI for real-time predictions of liver cirrhosis.–Developed a Python-based system using Flask for real-time predictions of liver cirrhosis.–Utilized KNN, XGBoost, and RF algorithms for accurate predictions. ",
       tech: ["Python", "Flask", "ML", "scikit-learn"],
       icon: <Cpu className="w-6 h-6" />,
       color: "from-purple-500 to-pink-500",
     },
     {
       title: "Fitness Management System",
-      desc: "Full-stack platform with secure login, trainer allocation, and member dashboards",
+      desc: "Full-stack platform with secure login, trainer allocation, and member dashboards –Developed a React.js + Node.js + Express.js platform for gym management.–Implemented secure login, trainer allocation, and member dashboards. ",
       tech: ["React.js", "Node.js", "Express.js", "MySQL"],
       icon: <Code className="w-6 h-6" />,
       color: "from-blue-500 to-cyan-500",
     },
     {
       title: "Vishnu Pharmacy Project",
-      desc: "Medicine lookup system enabling instant record retrieval for students and faculty",
+      desc: "Medicine lookup system enabling instant record retrieval for students and faculty –Created a medicine lookup system for students and faculty.–Reduced manual dependency by enabling instant medicine record retrieval.",
       tech: ["Python", "MySQL", "Visual Studio"],
       icon: <Zap className="w-6 h-6" />,
       color: "from-pink-500 to-rose-500",
@@ -136,6 +136,7 @@ const SpacePortfolio = () => {
     "IBM – Machine Learning (Coursera)",
     "Google – Foundations of Cybersecurity (Coursera)",
     "Japanese Language – Global Language Solutions",
+    "AI for Everyone: Master the Basics",
   ];
 
   if (loading) {
